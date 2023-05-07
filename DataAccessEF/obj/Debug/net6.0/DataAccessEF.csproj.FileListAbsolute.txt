@@ -1,0 +1,85 @@
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\bin\Debug\net6.0\DataAccessEF.deps.json
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\bin\Debug\net6.0\DataAccessEF.runtimeconfig.json
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\bin\Debug\net6.0\DataAccessEF.dll
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\bin\Debug\net6.0\DataAccessEF.pdb
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\bin\Debug\net6.0\Domain.dll
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\bin\Debug\net6.0\Domain.pdb
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.AssemblyReference.cache
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\DataAccessEF.GeneratedMSBuildEditorConfig.editorconfig
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfoInputs.cache
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfo.cs
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CoreCompileInputs.cache
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CopyComplete
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\DataAccessEF.dll
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\refint\DataAccessEF.dll
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\DataAccessEF.pdb
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\DataAccessEF.genruntimeconfig.cache
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\дз\DZ 11\DataAccessEF\obj\Debug\net6.0\ref\DataAccessEF.dll
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.deps.json
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.runtimeconfig.json
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.dll
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.pdb
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\bin\Debug\net6.0\Domain.dll
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\bin\Debug\net6.0\Domain.pdb
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.AssemblyReference.cache
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.GeneratedMSBuildEditorConfig.editorconfig
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfoInputs.cache
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfo.cs
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CoreCompileInputs.cache
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CopyComplete
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.dll
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\refint\DataAccessEF.dll
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.pdb
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.genruntimeconfig.cache
+E:\Лёша\Шаг\4 курс\5.C#(ASP)\Экзамен\backend\DataAccessEF\obj\Debug\net6.0\ref\DataAccessEF.dll
+C:\Users\Alex\source\repos\Backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.deps.json
+C:\Users\Alex\source\repos\Backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.runtimeconfig.json
+C:\Users\Alex\source\repos\Backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.dll
+C:\Users\Alex\source\repos\Backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.pdb
+C:\Users\Alex\source\repos\Backend\DataAccessEF\bin\Debug\net6.0\Domain.dll
+C:\Users\Alex\source\repos\Backend\DataAccessEF\bin\Debug\net6.0\Domain.pdb
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfoInputs.cache
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfo.cs
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CopyComplete
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.dll
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\refint\DataAccessEF.dll
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.pdb
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.genruntimeconfig.cache
+C:\Users\Alex\source\repos\Backend\DataAccessEF\obj\Debug\net6.0\ref\DataAccessEF.dll
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\bin\Debug\net6.0\DataAccessEF.deps.json
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\bin\Debug\net6.0\DataAccessEF.runtimeconfig.json
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\bin\Debug\net6.0\DataAccessEF.dll
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\bin\Debug\net6.0\DataAccessEF.pdb
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\bin\Debug\net6.0\Domain.dll
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\bin\Debug\net6.0\Domain.pdb
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.AssemblyReference.cache
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\DataAccessEF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfoInputs.cache
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfo.cs
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CopyComplete
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\DataAccessEF.dll
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\refint\DataAccessEF.dll
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\DataAccessEF.pdb
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\DataAccessEF.genruntimeconfig.cache
+C:\Users\Alex\source\repos\Backend2\DataAccessEF\obj\Debug\net6.0\ref\DataAccessEF.dll
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.deps.json
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.runtimeconfig.json
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.dll
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\bin\Debug\net6.0\DataAccessEF.pdb
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\bin\Debug\net6.0\Domain.dll
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\bin\Debug\net6.0\Domain.pdb
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.AssemblyReference.cache
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.GeneratedMSBuildEditorConfig.editorconfig
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfoInputs.cache
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.AssemblyInfo.cs
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CoreCompileInputs.cache
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.csproj.CopyComplete
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.dll
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\refint\DataAccessEF.dll
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.pdb
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\DataAccessEF.genruntimeconfig.cache
+E:\Лёша\Шаг\курсак 2\Backend\DataAccessEF\obj\Debug\net6.0\ref\DataAccessEF.dll
