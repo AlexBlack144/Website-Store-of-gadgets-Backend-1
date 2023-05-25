@@ -32,40 +32,41 @@ namespace DataAccessEF.Data
         public virtual DbSet<Category> Categories { get; set; } = null!;
         public virtual DbSet<Gadget> Gadgets { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
+        public virtual DbSet<Purchase> Purchases { get; set; } = null!;
 
-       /* protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Category>(entity =>
-            {
-                entity.ToTable("Category");
-            });
+        /* protected override void OnModelCreating(ModelBuilder modelBuilder)
+         {
+             modelBuilder.Entity<Category>(entity =>
+             {
+                 entity.ToTable("Category");
+             });
 
-            modelBuilder.Entity<Gadget>(entity =>
-            {
-                entity.ToTable("Gadget");
+             modelBuilder.Entity<Gadget>(entity =>
+             {
+                 entity.ToTable("Gadget");
 
-                entity.Property(e => e.IdCategory).HasColumnName("Id_Category");
+                 entity.Property(e => e.IdCategory).HasColumnName("Id_Category");
 
-                entity.HasOne(d => d.IdCategoryNavigation)
-                    .WithMany(p => p.Gadgets)
-                    .HasForeignKey(d => d.IdCategory)
-                    .HasConstraintName("FK__Gadget__Id_Categ__30F848ED");
-            });
+                 entity.HasOne(d => d.IdCategoryNavigation)
+                     .WithMany(p => p.Gadgets)
+                     .HasForeignKey(d => d.IdCategory)
+                     .HasConstraintName("FK__Gadget__Id_Categ__30F848ED");
+             });
 
-            modelBuilder.Entity<User>(entity =>
-            {
-                entity.ToTable("User");
+             modelBuilder.Entity<User>(entity =>
+             {
+                 entity.ToTable("User");
 
-                entity.Property(e => e.IdGadget).HasColumnName("Id_Gadget");
+                 entity.Property(e => e.IdGadget).HasColumnName("Id_Gadget");
 
-                entity.HasOne(d => d.IdGadgetNavigation)
-                    .WithMany(p => p.Users)
-                    .HasForeignKey(d => d.IdGadget)
-                    .HasConstraintName("FK__User__Id_Gadget__3B75D760");
-            });
-            OnModelCreatingPartial(modelBuilder);
-        }
+                 entity.HasOne(d => d.IdGadgetNavigation)
+                     .WithMany(p => p.Users)
+                     .HasForeignKey(d => d.IdGadget)
+                     .HasConstraintName("FK__User__Id_Gadget__3B75D760");
+             });
+             OnModelCreatingPartial(modelBuilder);
+         }
 
-        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);*/
+         partial void OnModelCreatingPartial(ModelBuilder modelBuilder);*/
     }
 }

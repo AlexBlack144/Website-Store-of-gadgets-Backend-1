@@ -18,6 +18,8 @@ namespace DataAccessEF.UnitOfWork
 
         public IUserRepository UserRepository { get; }
 
+        public IPurchaseRepository PurchaseRepository { get; }
+
         private readonly asp_tablesContext _dbContect;
 
         public UnitOfWork(asp_tablesContext dbContect)
@@ -26,6 +28,7 @@ namespace DataAccessEF.UnitOfWork
             CategoryRepository = new CategoryRepositories(dbContect);
             GadgetRepository = new GadgetRepositories(dbContect);
             UserRepository = new UserRepositories(dbContect);
+            PurchaseRepository = new PurchaseRepositories(dbContect);
         }
 
         public int Complete() => _dbContect.SaveChanges();

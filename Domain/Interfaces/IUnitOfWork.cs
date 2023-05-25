@@ -11,6 +11,7 @@ namespace Domain.Interfaces
         public ICategoryRepository CategoryRepository { get; }
         public IGadgetRepository GadgetRepository { get; }
         public IUserRepository UserRepository { get; }
+        public IPurchaseRepository PurchaseRepository { get; }
 
         int Complete();
     }

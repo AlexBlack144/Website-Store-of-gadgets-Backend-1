@@ -7,7 +7,7 @@ namespace Domain.Models
     {
         public Gadget()
         {
-            Users = new HashSet<User>();
+            //Users = new HashSet<User>();
         }
 
         public Gadget(int _Id, string? _Image, string? _Name, string? _Model, double? _Price, int? _Quantity, int? _Sold, bool? _Status, int? _IdCategory)
@@ -35,6 +35,6 @@ namespace Domain.Models
 
         public virtual Category? IdCategoryNavigation { get; set; }
 
-        public virtual ICollection<User> Users { get; set; }
+        //public virtual ICollection<User> Users { get; set; }
     }
 }
