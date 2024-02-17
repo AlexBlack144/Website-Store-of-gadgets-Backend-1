@@ -10,11 +10,12 @@ namespace Domain.Models
             //Users = new HashSet<User>();
         }
 
-        public Gadget(int _Id, string? _Image, string? _Name, string? _Model, double? _Price, int? _Quantity, int? _Sold, bool? _Status, int? _IdCategory)
+        public Gadget(int _Id, string? _Image, string? _Name, string? _Description, string? _Model, double? _Price, int? _Quantity, int? _Sold, bool? _Status, int? _IdCategory)
         {   
             this.Id = _Id;
             this.Image = _Image;
             this.Name = _Name;
+            this.Description = _Description;
             this.Model = _Model;
             this.Price = _Price;
             this.Quantity = _Quantity; 
@@ -26,6 +27,7 @@ namespace Domain.Models
         public int Id { get; set; }
         public string? Image { get; set; }
         public string? Name { get; set; }
+        public string? Description { get; set; }
         public string? Model { get; set; }
         public double? Price { get; set; }
         public int? Quantity { get; set; }

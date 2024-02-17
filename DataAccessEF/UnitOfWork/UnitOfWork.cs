@@ -16,7 +16,7 @@ namespace DataAccessEF.UnitOfWork
 
         public IGadgetRepository GadgetRepository { get; }
 
-        public IUserRepository UserRepository { get; }
+        public IGadgetCommentsLikeDislikeRepository GadgetCommentsLikesDislikesRepository { get; }
 
         public IPurchaseRepository PurchaseRepository { get; }
 
@@ -25,10 +25,10 @@ namespace DataAccessEF.UnitOfWork
         public UnitOfWork(asp_tablesContext dbContect)
         {
             this._dbContect = dbContect;
-            CategoryRepository = new CategoryRepositories(dbContect);
-            GadgetRepository = new GadgetRepositories(dbContect);
-            UserRepository = new UserRepositories(dbContect);
-            PurchaseRepository = new PurchaseRepositories(dbContect);
+            this.CategoryRepository = new CategoryRepositories(dbContect);
+            this.GadgetRepository = new GadgetRepositories(dbContect);
+            this.GadgetCommentsLikesDislikesRepository = new GadgetCommentsLikeDislikeRepositories(dbContect);
+            this.PurchaseRepository = new PurchaseRepositories(dbContect);
         }
 
         public int Complete() => _dbContect.SaveChanges();

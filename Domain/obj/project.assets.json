@@ -900,11 +900,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Лёша\\Шаг\\курсак 2\\Backend\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\Backend2\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "E:\\Лёша\\Шаг\\курсак 2\\Backend\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\Alex\\source\\repos\\Backend2\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "E:\\Лёша\\Шаг\\курсак 2\\Backend\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\source\\repos\\Backend2\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -958,7 +958,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

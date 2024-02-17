@@ -7698,11 +7698,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Лёша\\Шаг\\курсак 2\\Backend\\DataAccessEF\\DataAccessEF.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\Backend2\\DataAccessEF\\DataAccessEF.csproj",
       "projectName": "DataAccessEF",
-      "projectPath": "E:\\Лёша\\Шаг\\курсак 2\\Backend\\DataAccessEF\\DataAccessEF.csproj",
+      "projectPath": "C:\\Users\\Alex\\source\\repos\\Backend2\\DataAccessEF\\DataAccessEF.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "E:\\Лёша\\Шаг\\курсак 2\\Backend\\DataAccessEF\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\source\\repos\\Backend2\\DataAccessEF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7719,8 +7719,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Лёша\\Шаг\\курсак 2\\Backend\\Domain\\Domain.csproj": {
-              "projectPath": "E:\\Лёша\\Шаг\\курсак 2\\Backend\\Domain\\Domain.csproj"
+            "C:\\Users\\Alex\\source\\repos\\Backend2\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\Alex\\source\\repos\\Backend2\\Domain\\Domain.csproj"
             }
           }
         }
@@ -7782,7 +7782,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

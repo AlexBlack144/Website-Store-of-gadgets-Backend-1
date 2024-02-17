@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lrtiW2bMIzT8NObuVdJAe+6Ht9PXMLauadG9RYkmIWHpiIjSYh3+q6NfnrMpErWVNvLBo26/gGagrHR/VdszQw==",
+  "dgSpecHash": "zYC77eKYe5zATJM4qGOTL2okCRhiM6QDFqvlrfwXzIl+krgr+vj6oBSYHdbeoO/4ij8NayeZ52damCUuVEkyCw==",
   "success": true,
-  "projectFilePath": "E:\\Лёша\\Шаг\\курсак 2\\Backend\\DataAccessEF\\DataAccessEF.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\source\\repos\\Backend2\\DataAccessEF\\DataAccessEF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\azure.core\\1.28.0\\azure.core.1.28.0.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\azure.storage.blobs\\12.15.0\\azure.storage.blobs.12.15.0.nupkg.sha512",

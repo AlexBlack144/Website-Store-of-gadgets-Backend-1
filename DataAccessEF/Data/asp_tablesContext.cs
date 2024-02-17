@@ -31,7 +31,7 @@ namespace DataAccessEF.Data
 
         public virtual DbSet<Category> Categories { get; set; } = null!;
         public virtual DbSet<Gadget> Gadgets { get; set; } = null!;
-        public virtual DbSet<User> Users { get; set; } = null!;
+        public virtual DbSet<GadgetCommentsLikeDislike> GadgetCommentsLikeDisliks { get; set; } = null!;
         public virtual DbSet<Purchase> Purchases { get; set; } = null!;
 
         /* protected override void OnModelCreating(ModelBuilder modelBuilder)
