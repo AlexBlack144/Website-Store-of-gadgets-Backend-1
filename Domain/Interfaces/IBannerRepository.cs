@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface ICategoryRepository : IGenericRepository<Category>
+    public interface IBannerRepository : IGenericRepository<Banner>
     {
-        public Category GetId(int? id);
     }
 }

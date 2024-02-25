@@ -33,6 +33,7 @@ namespace DataAccessEF.Data
         public virtual DbSet<Gadget> Gadgets { get; set; } = null!;
         public virtual DbSet<GadgetCommentsLikeDislike> GadgetCommentsLikeDisliks { get; set; } = null!;
         public virtual DbSet<Purchase> Purchases { get; set; } = null!;
+        public virtual DbSet<Banner> Banner { get; set; } = null!;
 
         /* protected override void OnModelCreating(ModelBuilder modelBuilder)
          {

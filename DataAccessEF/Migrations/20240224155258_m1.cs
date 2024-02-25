@@ -195,6 +195,25 @@ namespace DataAccessEF.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Banner",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    FkGadgetsId = table.Column<int>(type: "int", nullable: true),
+                    ImgUrl = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Banner", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Banner_Gadgets_FkGadgetsId",
+                        column: x => x.FkGadgetsId,
+                        principalTable: "Gadgets",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "GadgetCommentsLikeDisliks",
                 columns: table => new
                 {
@@ -292,6 +311,11 @@ namespace DataAccessEF.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Banner_FkGadgetsId",
+                table: "Banner",
+                column: "FkGadgetsId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_GadgetCommentsLikeDisliks_FkAspNetUsersId",
                 table: "GadgetCommentsLikeDisliks",
                 column: "FkAspNetUsersId");
@@ -333,6 +357,9 @@ namespace DataAccessEF.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "Banner");
 
             migrationBuilder.DropTable(
                 name: "GadgetCommentsLikeDisliks");

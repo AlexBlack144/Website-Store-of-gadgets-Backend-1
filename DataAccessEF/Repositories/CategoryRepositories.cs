@@ -17,7 +17,7 @@ namespace DataAccessEF.Repositories
 
         public IEnumerable<Category> GetAll() => _dbContext.Categories.ToList();
 
-        public Category GetId(int id)
+        public Category GetId(int? id)
         {
             return _dbContext.Categories.Find(id);
         }

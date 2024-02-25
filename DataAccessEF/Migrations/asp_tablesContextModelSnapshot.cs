@@ -22,6 +22,27 @@ namespace DataAccessEF.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("Domain.Models.Banner", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int?>("FkGadgetsId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImgUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FkGadgetsId");
+
+                    b.ToTable("Banner");
+                });
+
             modelBuilder.Entity("Domain.Models.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -351,6 +372,15 @@ namespace DataAccessEF.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Models.Banner", b =>
+                {
+                    b.HasOne("Domain.Models.Gadget", "FkGadgets")
+                        .WithMany()
+                        .HasForeignKey("FkGadgetsId");
+
+                    b.Navigation("FkGadgets");
                 });
 
             modelBuilder.Entity("Domain.Models.Gadget", b =>

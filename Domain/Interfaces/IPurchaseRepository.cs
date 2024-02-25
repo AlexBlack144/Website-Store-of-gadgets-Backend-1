@@ -10,5 +10,8 @@ namespace Domain.Interfaces
     public interface IPurchaseRepository : IGenericRepository<Purchase>
     {
         IEnumerable<Purchase> GetPurchaseByName(string name);
+        IEnumerable<Purchase> GetPurchaseByBrandModel(string name);
+        IEnumerable<Purchase> GetPurchaseFilter(string[]? nameModels, int? min, int? max);
+        
     }
 }

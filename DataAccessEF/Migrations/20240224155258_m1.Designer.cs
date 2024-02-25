@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessEF.Migrations
 {
     [DbContext(typeof(asp_tablesContext))]
-    [Migration("20240204071430_m1")]
+    [Migration("20240224155258_m1")]
     partial class m1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -23,6 +23,27 @@ namespace DataAccessEF.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+
+            modelBuilder.Entity("Domain.Models.Banner", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int?>("FkGadgetsId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImgUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FkGadgetsId");
+
+                    b.ToTable("Banner");
+                });
 
             modelBuilder.Entity("Domain.Models.Category", b =>
                 {
@@ -353,6 +374,15 @@ namespace DataAccessEF.Migrations
                     b.HasKey("UserId", "LoginProvider", "Name");
 
                     b.ToTable("AspNetUserTokens", (string)null);
+                });
+
+            modelBuilder.Entity("Domain.Models.Banner", b =>
+                {
+                    b.HasOne("Domain.Models.Gadget", "FkGadgets")
+                        .WithMany()
+                        .HasForeignKey("FkGadgetsId");
+
+                    b.Navigation("FkGadgets");
                 });
 
             modelBuilder.Entity("Domain.Models.Gadget", b =>

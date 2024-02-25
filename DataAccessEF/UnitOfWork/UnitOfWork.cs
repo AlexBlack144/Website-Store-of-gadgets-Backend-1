@@ -20,6 +20,8 @@ namespace DataAccessEF.UnitOfWork
 
         public IPurchaseRepository PurchaseRepository { get; }
 
+        public IBannerRepository BannerRepository { get; }
+
         private readonly asp_tablesContext _dbContect;
 
         public UnitOfWork(asp_tablesContext dbContect)
@@ -29,6 +31,7 @@ namespace DataAccessEF.UnitOfWork
             this.GadgetRepository = new GadgetRepositories(dbContect);
             this.GadgetCommentsLikesDislikesRepository = new GadgetCommentsLikeDislikeRepositories(dbContect);
             this.PurchaseRepository = new PurchaseRepositories(dbContect);
+            this.BannerRepository = new BannerRepositories(dbContect);
         }
 
         public int Complete() => _dbContect.SaveChanges();

@@ -12,6 +12,7 @@ namespace Domain.Interfaces
         public IGadgetRepository GadgetRepository { get; }
         public IGadgetCommentsLikeDislikeRepository GadgetCommentsLikesDislikesRepository { get; }
         public IPurchaseRepository PurchaseRepository { get; }
+        public IBannerRepository BannerRepository { get; }
 
 
         int Complete();
