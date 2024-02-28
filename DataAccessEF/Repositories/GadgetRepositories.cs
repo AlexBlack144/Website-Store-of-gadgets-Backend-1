@@ -35,7 +35,7 @@ namespace DataAccessEF.Repositories
         }
         public IEnumerable<Gadget> GetGadgetByName(string name)
         {
-            return _dbContext.Gadgets.AsEnumerable().Where(x => x.Name.ToLower().StartsWith(name)||x.Model.ToLower().StartsWith(name));
+            return _dbContext.Gadgets.AsEnumerable().Where(x => x.Name.ToLower().StartsWith(name.ToLower()) ||x.Model.ToLower().StartsWith(name.ToLower()));
         }
         public IEnumerable<Gadget> GetGadgetFilter(string[]? nameModels, int? min, int? max)
         {
